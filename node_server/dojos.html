@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+</head>
+<body>
+        <form>
+                <fieldset>
+                    <legend>Survey</legend>
+                    <h3>Please take this short survey</h3>
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" name="email"><br>
+                    <label><input type="radio" name="send" value="yes">Yes, please send me lots of emails. </label><br>
+                    <label><input type="radio" name="send" value="no">No, please do not send me any
+                        email.</label><br><br>
+                    <label>How did you hear about the website? </label><br>
+                    <input type="checkbox" id="facebook" name="source" value="facebook">
+                    <label>Facebook</label><br>
+                    <input type="checkbox" id="newspaper" name="source" value="newspaper">
+                    <label>Newspaper</label><br>
+                    <input type="checkbox" id="twitter" name="source" value="twitter">
+                    <label>Twitter</label><br>
+                    <input type="checkbox" id="friends" name="source" value="friends">
+                    <label>Friends</label><br>
+                    <input type="checkbox" id="other" name="source" value="other">
+                    <label>Other</label>
+                    <p>Select your gender:</p>
+                    <select name="gender">
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                            <option value="decline">Prefer not to say</option>
+                        </select>
+                        <br><br>
+                    <input id="button" type="submit" value="Submit">
+                </fieldset>
+
+            </form>
+</body>
+</html>
